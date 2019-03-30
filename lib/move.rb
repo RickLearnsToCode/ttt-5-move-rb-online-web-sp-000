@@ -12,5 +12,6 @@ def input_to_index(user_input)
 end
 
 
-def move
+def move(array,index,player = "X")
+  array[index] = player
 end
